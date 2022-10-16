@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { makeExecutableSchema } from '@graphql-tools/schema'
 import { DateTimeResolver } from 'graphql-scalars'
 import { Context } from './context'
