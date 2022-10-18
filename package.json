@@ -1,12 +1,12 @@
 {
     "name": "batman-application",
     "version": "1.0.0",
-    "description": "Research GraphQL, Prisma, React",
+    "description": "Research GraphQL, Apollo, React Query, Axios, Prisma, React",
     "main": "server.ts",
     "type": "module",
     "scripts": {
       "start": "nodemon backend/src/server",      
-      "server": "nodemon backend/src/server.ts",
+      "server": "nodemon backend/src/server",
       "client": "npm start --prefix frontend",
       "dev": "concurrently \"npm run server\" \"npm run client\""
     },
