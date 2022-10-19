@@ -5,22 +5,18 @@
     "main": "server.ts",
     "type": "module",
     "scripts": {
-      "start": "nodemon backend/src/server",      
-      "server": "nodemon backend/src/server",
-      "client": "npm start --prefix frontend",
-      "dev": "concurrently \"npm run server\" \"npm run client\""
+        "start": "nodemon backend/src/server",
+        "server": "nodemon backend/src/server",
+        "client": "npm start --prefix frontend",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
     },
     "author": "Tom Irimescu",
     "license": "MIT",
-    "dependencies": {
-      "dotenv": "^10.0.0"
-    },
     "devDependencies": {
-      "@types/node": "16.11.66",
-      "ts-node": "10.9.1",
-      "ts-node-dev": "2.0.0",      
-      "concurrently": "^6.2.1",
-      "nodemon": "^2.0.12"
+        "@types/node": "16.11.66",
+        "concurrently": "^6.2.1",
+        "nodemon": "^2.0.12",
+        "ts-node": "10.9.1",
+        "ts-node-dev": "2.0.0"
     }
-  }
-  
+}

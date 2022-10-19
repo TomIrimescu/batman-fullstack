@@ -5,7 +5,7 @@ import { useQuery } from "react-query";
 import dotenv from "dotenv";
 dotenv.config();
 
-const endpoint = "http://localhost:4000/graphql/";
+const endpoint = process.env.REACT_APP_GRAPHQL_URL;
 
 const GET_ALL_USERS = `
   {

@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { QueryClient, QueryClientProvider } from "react-query";
+import dotenv from "dotenv";
+dotenv.config();
 
 const client = new QueryClient();
 

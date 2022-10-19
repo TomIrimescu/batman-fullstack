@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Users from './components/Users';
+import dotenv from "dotenv";
+dotenv.config();
 
 function App() {     
 
